@@ -1,0 +1,110 @@
+import webbrowser
+import os
+
+# Cria o HTML
+html = """<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu te amo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #0000FF;
+            font-size: 4.5rem;
+            text-align: center;
+            text-shadow: 0 0 15px #ff0000, 0 0 30px #8B0000;
+            letter-spacing: 4px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>eu te amo amor da minha vida</h1>
+</body>
+</html>
+"""
+
+# Salva o arquivo
+nome_arquivo = "eu_te_amo.html"
+with open(nome_arquivo, "w", encoding="utf-8") as f:
+    f.write(html)
+
+# Abre automaticamente no navegador
+caminho = os.path.abspath(nome_arquivo)
+webbrowser.open("file://" + caminho)
+
+print("Site aberto no navegador!")
+iput("aperte ENTER para sair...") import webbrowser
+import os
+
+# Cria o HTML
+html = """<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eu te amo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #0000FF;
+            font-size: 4.5rem;
+            text-align: center;
+            text-shadow: 0 0 15px #ff0000, 0 0 30px #8B0000;
+            letter-spacing: 4px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>eu te amo amor da minha vida</h1>
+</body>
+</html>
+"""
+
+# Salva o arquivo
+nome_arquivo = "eu_te_amo.html"
+with open(nome_arquivo, "w", encoding="utf-8") as f:
+    f.write(html)
+
+# Abre automaticamente no navegador
+caminho = os.path.abspath(nome_arquivo)
+webbrowser.open("file://" + caminho)
+
+print("Site aberto no navegador!")
